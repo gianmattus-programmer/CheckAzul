@@ -20,17 +20,17 @@ body {
     max-width: 480px;
     margin: 0 auto 10px auto;
     overflow: hidden;
-    height: 200px;
+    height: 240px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .fade-img {
-    width: 180px;
-    height: 180px;
-    max-width: 180px;
-    min-width: 180px;
-    min-height: 180px;
+    width: 220px;
+    height: 220px;
+    max-width: 220px;
+    min-width: 220px;
+    min-height: 220px;
     border-radius: 50%;
     box-shadow: 0 4px 24px rgba(0,0,0,0.18);
     object-fit: cover;
@@ -43,8 +43,8 @@ body {
     text-align: center;
 }
 .logo {
-    width: 90%;
-    max-width: 320px;
+    width: 100%;
+    max-width: 480px;
     margin: 30px auto 10px auto;
     display: block;
 }
@@ -89,7 +89,7 @@ body {
     gap: 24px;
     margin-bottom: 30px;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .link-btn {
     background: #fff;
@@ -148,11 +148,11 @@ footer span {
 }
 @media (max-width: 600px) {
     .logo, .fade-img {
-        width: 90px;
-        height: 90px;
+        width: 140px;
+        height: 140px;
     }
     .hero-img {
-        height: 200px;
+        height: 300px;
     }
     .link-btn, .footer-btn {
         font-size: 1rem;
